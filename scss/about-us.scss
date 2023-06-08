@@ -1,0 +1,468 @@
+body{
+    background: #EDEFF2;
+}
+
+.container{
+    margin: 0;
+    padding: 0;
+    font-family: 'Titillium Web', sans-serif;
+
+    header{
+        width: 1903px;
+        height: 1000px;
+        filter: drop-shadow(0px 10px 50px rgba(0, 0, 0, 0.25));
+        background-image: url(../img/pf-header-bg.png);
+        margin-top: -34px;
+        margin-left: -9px;
+        display: flex;
+        margin-bottom: 200px;
+
+        .dots{
+            background: #000;
+            width: 800px;
+            color: white;
+            height: 980px;
+            margin-top: -15px;
+
+            img{
+                width: 600px;
+                margin-top: 200px;
+            }
+
+            h1{
+                text-align: center;
+                font-size: 50px;
+                padding-top: 50px;
+            }
+        }
+
+        .border-header{
+            width: 700px;
+            height: 2px;
+            background: white;
+            margin-top: -350px;
+            margin-left: 50px;
+        }
+
+        .main-txt{
+            width: 800px;
+            color: white;
+            height: 1000px;
+
+            .socials{
+                display: flex;
+                justify-content: center;
+
+                img{
+                    margin: 50px;
+                }
+            }
+        }
+
+        .nav{
+            background: #969696;
+            width: 100%;
+            height: 150px;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            #menu__toggle {
+                opacity: 0;
+              }
+             
+              .menu__btn {
+                display: none; 
+                align-items: center; 
+                position: fixed;
+                top: 40px;
+                left: 30px;
+                width: 50px;
+                height: 50px;
+                cursor: pointer;
+                z-index: 1;
+              }
+
+              .menu__btn > span,
+              .menu__btn > span::before,
+              .menu__btn > span::after {
+                display: block;
+                position: absolute;
+                width: 100%;
+                height: 2px;
+                background-color: #616161;
+              }
+              .menu__btn > span::before {
+                content: '';
+                top: -8px;
+              }
+              .menu__btn > span::after {
+                content: '';
+                top: 8px;
+              }
+              .menu__box {
+                display: block;
+                position: fixed;
+                visibility: hidden;
+                top: 0;
+                left: -100%;
+                width: 300px;
+                height: 200px;
+                margin: 0;
+                padding: 80px 0;
+                list-style: none;
+                text-align: center;
+                background-color: #ECEFF1;
+                box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+              }
+
+              .menu__item {
+                display: block;
+                padding: 12px 24px;
+                color: #333;
+                font-family: 'Roboto', sans-serif;
+                font-size: 20px;
+                font-weight: 600;
+                text-decoration: none;
+              }
+              .menu__item:hover {
+                background-color: #CFD8DC;
+              }
+              #menu__toggle:checked ~ .menu__btn > span {
+                transform: rotate(45deg);
+              }
+              #menu__toggle:checked ~ .menu__btn > span::before {
+                top: 0;
+                transform: rotate(0);
+              }
+              #menu__toggle:checked ~ .menu__btn > span::after {
+                top: 0;
+                transform: rotate(90deg);
+              }
+              #menu__toggle:checked ~ .menu__box {
+                visibility: visible;
+                left: 0;
+              }
+              .menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+  transition-duration: .25s;
+}
+.menu__box {
+  transition-duration: .25s;
+}
+.menu__item {
+  transition-duration: .25s;
+}
+
+            a{
+                margin-left: 100px;
+                margin-top: 20px;
+                font-size: 25px;
+                color: white;
+                text-decoration: none;
+            }
+
+            .top{
+                font-weight: 600;
+                text-decoration: underline;
+                text-decoration-color: #FFD952;
+            }
+        }
+    }
+
+    main{
+        .Maks{
+            display: flex;
+            justify-content: space-evenly;
+
+            .face{
+                
+                width: 500px;
+            }
+
+            .txt{
+                padding-top: 100px;
+
+                p{
+                    width: 450px;
+                    font-size: 25px;
+                }
+            }
+
+            .asdasd{
+                position: absolute;
+                width: 300px;
+                left: 1300px;
+                top: 1250px;
+            }
+
+            
+        }
+
+        .dm{
+            width: 300px;
+            height: 100px;
+            position: absolute;
+            left: 520px;
+            margin-top: 10px;
+        }
+
+        .dv{
+            width: 300px;
+            height: 100px;
+            position: absolute;
+            left: 1020px;
+            margin-top: 20px;
+            padding-bottom: 100px;
+        }
+
+        .lines-m{
+            width: 500px;
+            margin-left: 1000px;
+            margin-top: -70px;
+            margin-bottom: 200px;
+        }
+
+        .lines-v{
+            width: 500px;
+            margin-left: 350px;
+            // margin-top: -100px;
+        }
+
+        .Vadim{
+            display: flex;
+            justify-content: space-evenly;
+
+            .face{
+                margin-left: -200px;
+                width: 500px;
+            }
+
+            .txt{
+                padding-top: 100px;
+
+                p{
+                    width: 450px;
+                    font-size: 25px;
+                }
+            }
+
+            .asdasd{
+                position: absolute;
+                width: 250px;
+                left: 250px;
+                top: 1900px;
+            }
+        }
+    }
+}
+
+@media (max-width:800px){
+    .container{
+        header{
+            text-align: center;
+            width: 700px;
+            height: 400px;
+
+            .dots{
+                text-align: center;
+                background: none;
+                width: 700px;
+
+                h1{
+                    font-size: 30px;
+                    margin-top: 130px;
+                }
+
+                img{
+                    display: none;
+                }
+            }
+
+            .nav{
+                margin-left: -800px;
+                height: 100px;
+                width: 700px;
+                
+                a{
+                    font-size: 20px;
+                }
+
+                a:first-child{
+                    margin-left: 0;
+                }
+            }
+
+            .socials{
+                width: 700px;
+                height: 400px;
+                margin-top: -30px;
+
+                img{
+                    width: 50px;
+                    height: 50px;
+                }
+            }
+
+            .border-header{
+                width: 600px;
+                margin-top: -830px;
+            }
+        }
+
+        main{
+            width: 700px;
+            height: 400px;
+
+            .Maks{
+                flex-wrap: wrap;
+                margin-top: -100px;
+
+                .asdasd{
+                    display: none;
+                }
+            }
+
+            .Vadim{
+                flex-wrap: wrap;
+                margin-top: -150px;
+
+                .asdasd{
+                    display: none;
+                }
+
+                .face{
+                    margin-left: -70px;
+                }
+            }
+
+            .lines-m{
+                margin-left: 0;
+                width: 400px;
+                margin-top: 0px;
+                margin-left: 120px;
+            }
+
+            .dm{
+                margin-left: -300px;
+                margin-top: -480px;
+            }
+
+            .lines-v{
+                margin-left: 0;
+                width: 400px;
+                margin-top: 100px;
+                margin-left: 120px;
+            }
+
+            .dv{
+                margin-left: -800px;
+                margin-top: -1050px;
+            }
+        }
+    }
+}
+
+@media (max-width:500px){
+    .container{
+        header{
+            width: 415px;
+
+            .main-txt{
+                width: 415px;
+
+                .dots{
+                    width: 415px;
+
+                    h1{
+                        font-size: 50px;
+                    }
+                }
+
+                .socials{
+                    width: 415px;
+                    flex-direction: column;
+                    margin-top: -310px;
+                    align-items: end;
+                    
+    
+                    img{
+                        width: 40px;
+                        height: 40px;
+                        margin: 20px;
+                    }
+                }
+
+                .border-header{
+                    width: 1px;
+                    height: 220px;
+                    margin-left: 400px;
+                    margin-top: -950px;
+                    
+                }
+            }
+
+            .nav{
+                width: 620px;
+                margin-left: -620px;
+
+                .menu__btn{
+                    display: flex;
+                }
+
+                a{
+                    display: none;
+                }
+            }
+        }
+
+        main{
+            .Maks{
+                width: 415px;
+                
+                .txt{
+                    p{
+                        font-size: 20px;
+                        width: 415px;
+                    }
+                }
+            }
+
+            .Vadim{
+                width: 414px;
+
+                .face{
+                    margin-left: -20px;
+                }
+                 
+                .txt{
+                    p{
+                        font-size: 20px;
+                        width: 410px;
+                    }
+                }
+            }
+
+            .lines-m{
+                margin-left: 10px;
+            }
+            .dm{
+                margin-top: -400px;
+                margin-left: -400px;
+            }
+
+            .dv{
+                margin-top: -800px;
+                margin-left: -880px;
+            }
+
+            .lines-v{
+                margin-left: 10px;
+                margin-top: -50px;
+                margin-bottom: 100px;
+            }
+        }
+    }
+}

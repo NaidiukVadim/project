@@ -1,0 +1,154 @@
+body{
+    background: #EDEFF2;
+}
+.container{
+    
+    header{
+        margin-bottom: 300px;
+
+        .header-bg{
+            z-index: -1;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 850px;
+            filter: drop-shadow(0px 10px 50px rgba(0, 0, 0, 0.25));
+        }
+
+        nav{
+            padding: 70px;
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 80px;
+            
+            .links{
+                display: flex;
+                justify-content: space-evenly;
+                width: 500px;
+
+                .a{
+                    width: 94px;
+                    height: 35px;
+                    font-family: 'Titillium Web';
+                    font-weight: bolder;
+                    font-size: 30px;
+                    color: #FFFFFF;
+                    text-decoration: none;
+                }
+
+                .a2{
+                    text-decoration: underline #FFD952;
+                }
+
+                .support-icon{
+                    margin-left: -60px;
+                }
+            }
+        }  
+
+        .support-centre{
+            margin-left: -40px;
+            
+            .txt{
+                margin: 0 auto;
+                width: 800px;
+
+                h1{
+                    color: white;
+                    width: 846px;
+                    height: 137px;
+                    font-family: 'Titillium Web';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 76px;
+                    line-height: 146px;
+                    text-align: center;
+                    margin-bottom: -10px;
+                    
+                }
+    
+                p{
+                    width: 517px;
+                    height: 76px;
+                    font-family: 'Titillium Web';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 38px;
+                    line-height: 73px;
+                    color: #FFFFFF;
+                    text-align: center;
+                    margin-bottom: -20px;
+                    position: relative;
+                    left: 150px;
+                    top: -50px;
+                }
+            }
+            
+            .comment-inner{
+                border-radius: 50px;
+                width: 500px;
+                height: 70px;
+                margin: 0 auto;
+                margin-bottom: 60px;
+                background-color: #425c5f;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                box-sizing: border-box;
+                
+
+                .comment-field{
+                    border-radius: 25px;
+                    padding: 5px;
+                    width: 400px;
+                    height: 40px;
+                    color: #BEBEBE;   
+                    font-family: 'Titillium Web';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 37px;
+                }
+            }
+
+            .icons{
+                margin-left: 710px;
+            }
+
+        }
+    }
+
+    main{
+        display: flex;
+        justify-content: space-evenly;
+        width: 1700px;
+        margin: 0 auto;
+        margin-bottom: 110px;
+
+        .block{
+            padding: 40px;
+            box-sizing: border-box;
+            background: white;
+            width: 400px;
+            height: 420px;
+            text-align: center;
+            filter: drop-shadow(10px 10px 45px rgba(0, 0, 0, 0.25));
+
+            h1{
+                font-family: 'Titillium Web';
+                font-weight: bolder;
+                font-size: 35px;
+                text-align: center;
+                margin-bottom: -20px;
+            }
+
+            p{
+                font-family: 'Titillium Web';
+                font-weight: 700;
+                font-size: 25px;
+                color: #21D7FF;
+            }
+        }
+    }
+}
