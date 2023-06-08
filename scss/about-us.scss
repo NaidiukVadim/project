@@ -180,6 +180,7 @@ body{
             .face{
                 
                 width: 500px;
+                margin-top: -50px;
             }
 
             .txt{
@@ -348,6 +349,7 @@ body{
             .dm{
                 margin-left: -300px;
                 margin-top: -480px;
+                display: none;
             }
 
             .lines-v{
@@ -360,6 +362,7 @@ body{
             .dv{
                 margin-left: -800px;
                 margin-top: -1050px;
+                display: none;
             }
         }
     }
@@ -421,6 +424,10 @@ body{
         main{
             .Maks{
                 width: 415px;
+
+                .face{
+                    width: 70%;
+                }
                 
                 .txt{
                     p{
@@ -435,6 +442,8 @@ body{
 
                 .face{
                     margin-left: -20px;
+                    width: 70%;
+                    margin-bottom: 50px;
                 }
                  
                 .txt{
@@ -451,11 +460,13 @@ body{
             .dm{
                 margin-top: -400px;
                 margin-left: -400px;
+                display: none;
             }
 
             .dv{
                 margin-top: -800px;
                 margin-left: -880px;
+                display: none;
             }
 
             .lines-v{

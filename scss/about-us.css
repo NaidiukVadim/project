@@ -163,6 +163,7 @@ body {
 }
 .container main .Maks .face {
   width: 500px;
+  margin-top: -50px;
 }
 .container main .Maks .txt {
   padding-top: 100px;
@@ -296,6 +297,7 @@ body {
   .container main .dm {
     margin-left: -300px;
     margin-top: -480px;
+    display: none;
   }
   .container main .lines-v {
     margin-left: 0;
@@ -306,6 +308,7 @@ body {
   .container main .dv {
     margin-left: -800px;
     margin-top: -1050px;
+    display: none;
   }
 }
 @media (max-width: 500px) {
@@ -351,6 +354,9 @@ body {
   .container main .Maks {
     width: 415px;
   }
+  .container main .Maks .face {
+    width: 70%;
+  }
   .container main .Maks .txt p {
     font-size: 20px;
     width: 415px;
@@ -360,6 +366,8 @@ body {
   }
   .container main .Vadim .face {
     margin-left: -20px;
+    width: 70%;
+    margin-bottom: 50px;
   }
   .container main .Vadim .txt p {
     font-size: 20px;
@@ -371,10 +379,12 @@ body {
   .container main .dm {
     margin-top: -400px;
     margin-left: -400px;
+    display: none;
   }
   .container main .dv {
     margin-top: -800px;
     margin-left: -880px;
+    display: none;
   }
   .container main .lines-v {
     margin-left: 10px;
