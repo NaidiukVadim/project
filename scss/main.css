@@ -484,7 +484,7 @@ body {
 
 @media (max-width: 450px) {
   .container {
-    width: 860px;
+    width: 780px;
   }
   .container header {
     margin-bottom: 250px;
@@ -499,8 +499,8 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    width: 670px;
-    height: 550px;
+    width: 780px;
+    height: 500px;
     filter: drop-shadow(0px 10px 50px rgba(0, 0, 0, 0.25));
   }
   .container header .header-flex {
@@ -569,7 +569,7 @@ body {
   .container .white-galaxy-s23 {
     display: flex;
     flex-direction: column;
-    width: 70%;
+    width: 87%;
     margin-left: 43px;
   }
   .container .white-galaxy-s23 .h1 {
